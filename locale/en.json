@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Xuanpin · Memory",
+    "description": "A tiny local memory for AI: remembers things, keeps a mood, notices when the last session broke off. Plain json files. No model, no network, no tokens."
+  }
+}

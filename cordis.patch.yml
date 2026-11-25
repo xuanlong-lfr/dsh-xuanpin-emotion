@@ -1,0 +1,4 @@
+# 在 Host API 旁边挂一组玄牝的路由
+- insert:
+    - id: xuanpin
+      name: 'dsh-xuanpin'

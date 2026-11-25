@@ -1,0 +1,47 @@
+{
+  "name": "dsh-xuanpin",
+  "version": "0.1.0",
+  "description": "玄牝：给 AI 加个记性、一点脾气、断线了会慌。几个 json 文件的读写，没有模型，不训练，本地跑，不花 token。",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "peerDependencies": {
+    "dsh": ">=0.2.2-rc.1"
+  },
+  "peerDependenciesMeta": {
+    "dsh": {
+      "optional": true
+    }
+  },
+  "files": [
+    "src",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "locale"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "memory",
+    "mood",
+    "记性",
+    "记忆",
+    "情绪",
+    "玄牝"
+  ],
+  "license": "MIT"
+}
