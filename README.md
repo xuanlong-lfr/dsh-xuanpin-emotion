@@ -1,4 +1,4 @@
-# 玄牝（dsh-xuanpin）
+﻿# 玄牝·情绪（dsh-xuanpin-emotion）
 
 给 AI 加个能记事、有点脾气、断了会慌的记性库。
 不是模型，不训练，只是在本地读写几个 json 文件。
@@ -17,7 +17,7 @@ dsh --version
 装好大约 1 分钟。
 
 ```bash
-dsh plugin add dsh-xuanpin
+dsh plugin add dsh-xuanpin-emotion
 ```
 
 装完重启一次 dsh web。
@@ -123,3 +123,4 @@ node test.mjs
 ## 许可
 
 MIT，随便用随便改。
+

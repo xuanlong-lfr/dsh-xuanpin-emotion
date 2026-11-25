@@ -1,7 +1,7 @@
 {
-  "name": "dsh-xuanpin",
+  "name": "dsh-xuanpin-emotion",
   "version": "0.1.0",
-  "description": "玄牝：给 AI 加个记性、一点脾气、断线了会慌。几个 json 文件的读写，没有模型，不训练，本地跑，不花 token。",
+  "description": "玄牝·情绪：给 AI 加个记性、一点脾气、断线了会慌。几个 json 文件的读写，没有模型，不训练，本地跑，不花 token。",
   "type": "module",
   "main": "./src/index.js",
   "exports": {
